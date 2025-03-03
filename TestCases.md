@@ -4,7 +4,6 @@
 **Submitted To:** Mr. Vipin Tripathi  
 **Test Case Version:**  1.0  
 **Reviewer Name:** Mr. Vipin Tripathi 
-1.jjnjbv
 
 ## Goal
 
