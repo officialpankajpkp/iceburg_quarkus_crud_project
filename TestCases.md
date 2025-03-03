@@ -117,7 +117,7 @@ The goal of this project is to build a fully functional data processing pipeline
 **Test Run Date:** _(To be filled)_  
 **Result:** Pending/Pass/Fail  
 
----
+
 
 **Test Case 11 – Update Data via GUI**  
 **Scenario:** Validate data update via GUI.  
@@ -128,7 +128,7 @@ The goal of this project is to build a fully functional data processing pipeline
 **Test Run Date:** _(To be filled)_  
 **Result:** Pending/Pass/Fail  
 
----
+
 
 **Test Case 12 – Delete Data via GUI**  
 **Scenario:** Validate data deletion via GUI.  
