@@ -8,6 +8,7 @@
 ## Goal
 
 The goal of this project is to build a fully functional data processing pipeline using Podman, Apache Iceberg, Trino, and Java Quarkus, with a user-friendly GUI for interaction. The setup involves:
+   
    1.Running Apache Iceberg inside a Podman container.
    2.Setting up and configuring Trino to query Iceberg.
    3.Developing a Java Quarkus application to interact with Iceberg through Trino.
