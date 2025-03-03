@@ -14,7 +14,7 @@ The goal of this project is to build a fully functional data processing pipeline
     3. Developing a Java Quarkus application to interact with Iceberg through Trino
     4. Designing a GUI to make the system easy to use
 
-## Test Cases
+## TEST CASES
 
 
 **Test Case 1 – Verify Podman installation**  
@@ -138,3 +138,15 @@ The goal of this project is to build a fully functional data processing pipeline
 **Then:** The record should be removed from Iceberg.  
 **Test Run Date:** _(To be filled)_  
 **Result:** Pending/Pass/Fail  
+
+## NFR TEST CASE
+
+**Test Case 1 – System Response Time**  
+**Scenario:** Validate that the system processes user actions within an acceptable time frame.  
+**Remark:** Ensure smooth user experience by preventing delays.  
+**Given:** A user with a stable internet connection performing an action on the system.  
+**When:** The user clicks on a button (e.g., "Submit" or "Login").  
+**Then:** The system should complete the action and provide a response within **2 seconds**.  
+**Test Run Date:**  
+**Result:** Pending/Pass/Fail  
+
