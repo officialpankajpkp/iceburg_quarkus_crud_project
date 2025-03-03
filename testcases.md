@@ -24,17 +24,9 @@ The goal of this project is to build a fully functional data processing pipeline
 **Then:** The Podman version should be displayed.  
 **Test Run Date:**  
 **Result:** Pending/Pass/Fail  
+ 
 
-**Test Case 2 – Verify Iceberg installation inside Podman**  
-**Scenario:** Validate Iceberg service deployment.  
-**Remark:** Ensure Iceberg starts without errors.  
-**Given:** Iceberg is deployed inside a Podman container.  
-**When:** The container logs are checked.  
-**Then:** Iceberg service should start without errors.  
-**Test Run Date:**  
-**Result:** Pending/Pass/Fail  
-
-**Test Case 3 – Verify Trino installation**  
+**Test Case 2 – Verify Trino installation**  
 **Scenario:** Confirm Trino installation and connection.  
 **Remark:** Trino should list Iceberg as a catalog.  
 **Given:** Trino is running inside a container.  
@@ -43,7 +35,7 @@ The goal of this project is to build a fully functional data processing pipeline
 **Test Run Date:**  
 **Result:** Pending/Pass/Fail  
 
-**Test Case 4 – Check connectivity between Trino and Iceberg**  
+**Test Case 3 – Check connectivity between Trino and Iceberg**  
 **Scenario:** Ensure Trino can query Iceberg tables.  
 **Remark:** Trino should execute queries successfully.  
 **Given:** A Trino instance connected to Iceberg.  
@@ -53,7 +45,7 @@ The goal of this project is to build a fully functional data processing pipeline
 **Result:** Pending/Pass/Fail  
 
 
-**Test Case 5 – Create an Iceberg Table**  
+**Test Case 4 – Create an Iceberg Table**  
 **Scenario:** Validate table creation in Iceberg.  
 **Remark:** Ensure table creation completes without errors.  
 **Given:** A running Iceberg instance.  
@@ -62,7 +54,7 @@ The goal of this project is to build a fully functional data processing pipeline
 **Test Run Date:**  
 **Result:** Pending/Pass/Fail  
 
-**Test Case 6 – Insert Data into Iceberg Table**  
+**Test Case 5 – Insert Data into Iceberg Table**  
 **Scenario:** Verify data insertion into Iceberg.  
 **Remark:** Ensure data is stored correctly.  
 **Given:** A created Iceberg table.  
@@ -71,7 +63,7 @@ The goal of this project is to build a fully functional data processing pipeline
 **Test Run Date:**  
 **Result:** Pending/Pass/Fail  
 
-**Test Case 7 – Retrieve Data from Iceberg Table**  
+**Test Case 6 – Retrieve Data from Iceberg Table**  
 **Scenario:** Verify data retrieval.  
 **Remark:** Ensure correct data is fetched.  
 **Given:** An Iceberg table with data.  
@@ -82,7 +74,7 @@ The goal of this project is to build a fully functional data processing pipeline
 
 
 
-**Test Case 8– Update an Iceberg Table Record**  
+**Test Case 7– Update an Iceberg Table Record**  
 **Scenario:** Validate record update in Iceberg.  
 **Remark:** Iceberg may not support direct updates; verify alternative approaches.  
 **Given:** An existing table iceberg.default.users with records.  
@@ -93,7 +85,7 @@ The goal of this project is to build a fully functional data processing pipeline
 
 
 
-**Test Case 9 – Delete Data from Iceberg Table**  
+**Test Case 8 – Delete Data from Iceberg Table**  
 **Scenario:** Validate data deletion in Iceberg.  
 **Remark:** Ensure data deletion completes without errors.  
 **Given:** A record exists in the iceberg.default.users table.  
@@ -104,7 +96,7 @@ The goal of this project is to build a fully functional data processing pipeline
 
 
 
-**Test Case 10 – Validate Schema Evolution**  
+**Test Case 9 – Validate Schema Evolution**  
 **Scenario:** Validate the addition of a new column in Iceberg table.  
 **Remark:** Ensure the schema evolves correctly without errors.  
 **Given:** A created Iceberg table.  
@@ -115,7 +107,7 @@ The goal of this project is to build a fully functional data processing pipeline
 
 
 
-**Test Case 11 – Insert Data via GUI**  
+**Test Case 10 – Insert Data via GUI**  
 **Scenario:** Validate data insertion via GUI.  
 **Remark:** Ensure data is stored correctly in Iceberg.  
 **Given:** A running GUI form for inserting data.  
@@ -126,7 +118,7 @@ The goal of this project is to build a fully functional data processing pipeline
 
 ---
 
-**Test Case 12 – Update Data via GUI**  
+**Test Case 11 – Update Data via GUI**  
 **Scenario:** Validate data update via GUI.  
 **Remark:** Ensure data is updated correctly in Iceberg.  
 **Given:** A running GUI form with editable user data.  
@@ -137,7 +129,7 @@ The goal of this project is to build a fully functional data processing pipeline
 
 ---
 
-**Test Case 13 – Delete Data via GUI**  
+**Test Case 12 – Delete Data via GUI**  
 **Scenario:** Validate data deletion via GUI.  
 **Remark:** Ensure data is removed correctly from Iceberg.  
 **Given:** A running GUI with user data to delete.  
